@@ -1,0 +1,21 @@
+Your first exercise is the utilization of Git on the GitHub remote repository.
+You should share your exercise as a link  with your trainer in private chat!!!
+Below are the description steps of the exercise.
+    •    Create a new repository with “Add a README file”.
+    •     Clone the repository
+    •     Create a new branch called homework
+    •    Add 2 files to the repository branch (eg. exercise.txt, yourname.txt)
+    •    Add some text to the new files.
+    •    Commit your changes.
+    •    Push your commit to remote repository
+    •    Add 1 more file to the branch (eg. test.txt)
+    •    Commit your changes.
+    •    Delete the last file, you have added.
+    •    Commit your changes.
+    •    Push your commits.
+    •    Raise a Pull Request (PR).
+    •    Edit README.md and add your name as a new line!
+    •    Commit your changes.
+    •    Push your commits.
+    •    Merge your PR!
+    •    Congratulations!!!
