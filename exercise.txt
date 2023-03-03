@@ -19,3 +19,36 @@ Below are the description steps of the exercise.
     •    Push your commits.
     •    Merge your PR!
     •    Congratulations!!!
+
+================3.1==================
+
+- Create Resource Group on Azure with Terraform.
+Use one of optional arguments while you prepare main.tf file.
+I don’t want you to deploy it, just write main.tf file. 
+Send it to me by pushing the same repo that you used yesterday!
+Good Luck!!!
+And also please create one more any resource that you wish from aws in the same main.tf file
+Create a new branch for your work and then open a Pull Request and lastly merge it to main branch when you are done 
+========3.2===========
+- Create a new repository for your project. (give `project-1` title for your repo)
+- Have main.tf, providers.tf, variable.tf, output.tf. (Use all files as intended)
+- Create two users (one user will be your name, another user will be your trainer’s name) on Azure with Terraform. Use correct argument in your configuration to force your trainer to change their passwords when s/he logins. (Create it as a two different resource blocks)
+- Create four different users (usernames will be your classmates) on Aws by using `for_each` with Terraform.
+- Create two S3(Simple Storage Service) bucket using `count` with Terraform.
+- Create a Resource Group, Virtual Machine and Storage Account on Azure with Terraform. Use same Resource Group for every Azure resource.
+- Use 2 tags at least in your configuration.
+- Use 1 output at least in your configuration.
+- Use variables as much as you can.
+- Use main.tf for all resources.
+- Keep both provider`s information in provider.tf.
+- Then, explain your project with short details by creating ReadMe.md file. 
+- Lastly, push your project with ReadMe.md file and notify your trainer by sending your repository link.
+Note-1: Please push your commits one by one! I mean at least make 3 push! Don`t push everything at once!
+Note-2: Create another branch called ‘assessment’ for your project. And after you are done, open Pull Request and lastly merge it to the main branch.
+Note-3:   Create resources following order below!
+Resource Group
+Azure Users
+S3 Buckets
+Aws Users
+Storage Account
+Virtual Machine
